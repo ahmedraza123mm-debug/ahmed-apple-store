@@ -2,26 +2,99 @@
 <html>
 <head>
   <title>Products - Ahmed Apple Store</title>
+
+  <style>
+    body{
+      font-family: Arial;
+      background: #111;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1{
+      padding: 20px;
+    }
+
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card{
+      background: #222;
+      width: 250px;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .price{
+      color: #00ff99;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    button{
+      background: #00ff99;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover{
+      background: #00cc77;
+    }
+
+    a{
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      display: inline-block;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>🛍️ Our Products</h1>
+<h1>🛍️ Our Shop</h1>
 
-<p>Yahan aap hamare products dekh sakte hain</p>
+<div class="container">
 
-<hr>
+  <div class="card">
+    <h3>🔥 VIP Access</h3>
+    <p class="price">Rs 1000</p>
+    <button onclick="window.location.href='contact.html'">
+      Buy Now
+    </button>
+  </div>
 
-<h3>🔥 VIP Access</h3>
-<p>Price: Rs 1000</p>
-<button onclick="window.location.href='contact.html'">Buy Now</button>
+  <div class="card">
+    <h3>📦 Digital Service</h3>
+    <p class="price">Rs 500</p>
+    <button onclick="window.location.href='contact.html'">
+      Buy Now
+    </button>
+  </div>
 
-<hr>
+  <div class="card">
+    <h3>💎 Premium Account</h3>
+    <p class="price">Rs 1500</p>
+    <button onclick="window.location.href='contact.html'">
+      Buy Now
+    </button>
+  </div>
 
-<h3>📦 Digital Service</h3>
-<p>Price: Rs 500</p>
-<button onclick="window.location.href='contact.html'">Buy Now</button>
+</div>
 
-<br><br>
+<br>
 
 <a href="index.html">Home</a> |
 <a href="about.html">About</a> |
