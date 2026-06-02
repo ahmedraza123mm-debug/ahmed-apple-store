@@ -16,7 +16,14 @@
       background: #222;
       padding: 20px;
       border-radius: 10px;
-      margin-top: 50px;
+      margin-top: 20px;
+    }
+
+    .product {
+      background: #1c1c1c;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 10px;
     }
 
     .btn {
@@ -33,6 +40,15 @@
     .btn:hover {
       background: orange;
     }
+
+    .buy {
+      padding:10px 20px;
+      background:green;
+      color:white;
+      border:none;
+      border-radius:8px;
+      cursor:pointer;
+    }
   </style>
 </head>
 
@@ -40,6 +56,7 @@
 
   <h1>🔥 VIP ACCESS STORE</h1>
 
+  <!-- ORIGINAL PRODUCT -->
   <div class="box">
     <h2>Premium Access</h2>
     <p>Price: 300 PKR</p>
@@ -51,12 +68,19 @@
       Send Payment Screenshot
     </a>
 
-    <a href="https://wa.me/923041802696?text=Hello%20I%20want%20to%20buy%20VIP%20access"
-   target="_blank">
-  <button style="padding:10px 20px; background:green; color:white; border:none;">
-    Buy Now
-  </button>
-</a>
+    <a href="https://wa.me/923041802696?text=Hello%20I%20want%20to%20buy%20VIP%20access" target="_blank">
+      <button class="buy">Buy Now</button>
+    </a>
+  </div>
+
+  <!-- NEW PRODUCT ADDED -->
+  <div class="product">
+    <h2>1$ Apple ID</h2>
+    <p>Fresh Apple ID instant delivery</p>
+
+    <a href="https://wa.me/923041802696?text=I%20want%201$%20Apple%20ID" target="_blank">
+      <button class="buy">Buy Now</button>
+    </a>
   </div>
 
 </body>
